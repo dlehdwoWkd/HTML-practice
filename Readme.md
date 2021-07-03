@@ -5,14 +5,14 @@
 
 
 # HTML 태그  
-*<h1> ~ <h6>* : 글자 크기별 타이틀  
-*<ul>* : unordered list
-*<ol>* : ordered list
-*<li>* : list item
-*<title>* : title of website  
-*<a>* : anchor
-*attributes of <a>* :  
-1. *href* : 특정사이트 연결  
-2. *target="_self" : 같은 탭에서 href로 추가한 링크 연결  
-3. *target="_blank" : 다른 탭에서 href로 추가한 링크 연결  
-4. *<img src=""/> : 이미지 주소를 받아서 웹페이지에 이미지 출력
+<h1> ~ <h6> : 글자 크기별 타이틀  
+<ul> : unordered list
+<ol> : ordered list
+<li> : list item
+<title> : title of website  
+<a> : anchor
+attributes of <a> :  
+1. href : 특정사이트 연결  
+2. target="_self" : 같은 탭에서 href로 추가한 링크 연결  
+3. target="_blank" : 다른 탭에서 href로 추가한 링크 연결  
+4. <img src=""/> : 이미지 주소를 받아서 웹페이지에 이미지 출력
