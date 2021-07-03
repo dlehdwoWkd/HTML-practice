@@ -6,8 +6,13 @@
     <meta charset="utf-8" />
     <meta name="description" content="This is my website" />
   <body>
-    <audio 
-    controls="enabled" 
-    src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+    <form>
+        <input type="file" accept="image/*" />
+        <input required placeholder="Name" type="text" />
+        <input required placeholder="Last Name"  type="text" />
+        <input required placeholder="username" type="text" />
+        <input required placeholder="password" minlength="10" type="password" />
+        <input type="submit" value="Create Account" />
+    </form>
   </body>
 </html>
