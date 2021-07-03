@@ -5,12 +5,12 @@
 
 
 # HTML 태그  
-<h1> ~ <h6> : 글자 크기별 타이틀  
-<ul> : unordered list
-<ol> : ordered list
-<li> : list item
-<title> : title of website  
-<a> : anchor
+1. <h1> ~ <h6> : 글자 크기별 타이틀  
+2. <ul> : unordered list
+3. <ol> : ordered list
+4. <li> : list item
+5. <title> : title of website  
+6. <a> : anchor
 attributes of <a> :  
 1. href : 특정사이트 연결  
 2. target="_self" : 같은 탭에서 href로 추가한 링크 연결  
