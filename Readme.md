@@ -6,5 +6,8 @@
 3. block: div, header, section, main, footer, article 등등은 옆에 어떤것도 들어가지 않는다.
 4. inline(in the same line)은 같은 줄 옆에 다른 요소가 추가될 수 있다
 5. block 이 아닌 것들: span, a, image
+6. 어떤 요소를 inline으로 설정할 경우 그 요소는 높이와 너비를 가질 수 없다.
 
 
+## box의 요소
+1. margin : box의 border(경계)의 바깥에 있는 공간이다.
