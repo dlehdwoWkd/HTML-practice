@@ -11,3 +11,8 @@
 
 ## box의 요소
 1. margin : box의 border(경계)의 바깥에 있는 공간이다.
+(1) margin 값을 설정할 때 margin: 20px 15px과 같은 경우로 설정할 경우 첫번째 값인 20px은  
+수직 margin 값을, 두번째 값인 15px은 수평 margin값이다.
+(2) margin 값을 설정할 때 margin: 20px 5px 12px 9px 과 같은 경우로 설정하면 위, 오른쪽, 아래,  
+왼쪽(시계방향)으로 값이 설정된다.
+(3) collapsing margin: block과 block의 경계가 같을 때 두 block의 위 아래의 margin은 같이 취급된다.
