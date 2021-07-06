@@ -77,4 +77,8 @@ n allows you to do every other number
 2. div > span  
    : span이 div의 direct children임을 의미한다. 이때는 direct children이 아니면 작동하지 않는다.
 3. div + span  
-   : div와 동등한 위치(형제)에 있는 span을 의미한다. 자식 요소도, 부모 요소도 아닌 것.
+   : div와 동등한 위치(형제)에 있는 span을 의미한다. 자식 요소도, 부모 요소도 아닌 것. 바로 다음 위치에 있는 형제만 적용된다.
+4. div + ~  
+   : 를 사용해 바로 뒤에 오는 형제 관계가 아닌 tag에도 스타일을 적용시킬 수 있다.
+5. tag[attribute="value"]을 통해 스타일을 적용시킬 수 있다.
+6. tag[attribute~="value"]으로 value를 포함하는 모든 tag에 스타일을 적용시킬 수 있다.
