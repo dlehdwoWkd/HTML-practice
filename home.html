@@ -3,33 +3,27 @@
   <head>
     <title>The Nico Times</title>
     <style>
+      :root {
+        --main-color: #4761aa;
+        --default-border: 1px solid var(--main-color);
+      }
       body {
         height: 1000vh;
         margin: 50px;
       }
-      span {
-        background-color: yellowgreen;
-        padding: 5px;
-        border-radius: 10px;
+      p {
+        background-color: var(--main-color);
       }
-      form {
-        border: 1px solid salmon;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-      }
-      form:hover input:focus {
-        background-color: sienna;
+      a {
+        color: var(--main-color);
+        border: var(--default-border);
       }
     </style>
   </head>
   <body>
+    <p>asdjkasdjlasjdklawjldkjaskldjlasjdklasjdl</p>
     <div>
-      <form>
-        <input type="text" name="" id="" />
-        <input type="text" name="" id="" />
-        <input type="text" name="" id="" />
-      </form>
+      <a href="#">website</a>
     </div>
   </body>
 </html>

@@ -96,3 +96,23 @@ ex) high-tag:hover low-tag:focus{
 
 }
 인 경우, 상위 요소위에 마우스 커서가 있고, 하위 요소가 focused 되었을 때 효과를 적용하게 된다.
+
+# Color
+
+1. hexadecimal color(16진수 컬러)  
+   ex) #000000 <
+2. RGB 방식
+3. RGBA 방식 (마지막 a는 투명도를 말한다)
+
+# Variable (custom properties)
+
+매우중요!! 프로그래밍 언어의 장점을 css에서 활용할수 있음
+
+:root 라는 엘리먼트에 변수를 추가함으로써 지정  
+:root는 기본적으로 모든 document의 뿌리가 되는 것  
+여기에 --를 쓰고 변수이름을 써줘야함 빈공간이 있다면 -로 채워야한다  
+ex) --main-color: #14122a;  
+변수안에 변수도 지정 가능  
+ex) --default-border: 1px solid var(--main-color);
+
+변수를 사용할 때는 var(--변수이름)
