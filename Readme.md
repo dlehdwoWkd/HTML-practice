@@ -82,3 +82,17 @@ n allows you to do every other number
    : 를 사용해 바로 뒤에 오는 형제 관계가 아닌 tag에도 스타일을 적용시킬 수 있다.
 5. tag[attribute="value"]을 통해 스타일을 적용시킬 수 있다.
 6. tag[attribute~="value"]으로 value를 포함하는 모든 tag에 스타일을 적용시킬 수 있다.
+
+# States
+
+active: 해당 요소를 마우스로 클릭했을 때 효과를 적용  
+hover: 마우스가 해당 요소 위를 지나갈 때 효과를 적용  
+focus: 키보드로 선택되었을 때 효과를 적용  
+focus-within: 부모 요소에게 적용. 자신의 자식 요소 중 하나가 focused되었을 때 효과를 적용  
+visited:: 방문한 사이트일 경우에 효과 적용
+
+조건을 나열해 여러 상황 설정 가능  
+ex) high-tag:hover low-tag:focus{
+
+}
+인 경우, 상위 요소위에 마우스 커서가 있고, 하위 요소가 focused 되었을 때 효과를 적용하게 된다.
