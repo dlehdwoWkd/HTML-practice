@@ -8,23 +8,25 @@
         margin: 20px;
       }
       div {
-        width: 350px;
-        color: white;
+        width: 300px;
+        background-color: wheat;
+        height: 300px;
+        position: relative;
+      }
+      .green {
+        background-color: teal;
         height: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100px;
       }
 
-      #green{
-        background-color: teal;
-        position: fixed;
-        opacity: 0.2;
-      }
-      #different {
-        background-color: wheat;
-        width: 350px;
-      }
+      
     </style>
   <body>
-    <div id="green"></div>
-    <div id="different"></div>
+    <div>
+      <div class="green"></div>
+    </div>
   </body>
 </html>
