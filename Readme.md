@@ -35,3 +35,11 @@ class는 id와 달리 여러개를 지정해줄수 있다.
 # inline-block
 (1) block이 inline속성을 가지게 해주는 것
 (2) 정해진 형식이 없기에 block사이에 공간이 생기며 깔끔하지 못하다.
+
+# flexbox 사용 규칙
+1. 자식 엘리먼트에는 어떤 것도 적지 않는다(부모 엘리먼트를 flex container로 만들어야 한다.  
+2. align-items : cross axis에서 작용(디폴트 값: 세로)  
+3. justify-content: main axis에서 작용(디폴트 값: 가로)  
+flex-container가 height를 가지지 않으면 align-items를 사용하더라도 바뀌지 않는다.  
+
+*height를 px로 해도 작동하지만, vh를 사용하면 화면 크기에 따라 height가 그 비율로 바뀌기에 기종마다 화면 비율이 달라도 그 비율에 맞게 설정할 수 있다.*
