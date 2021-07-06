@@ -55,12 +55,19 @@ _height를 px로 해도 작동하지만, vh를 사용하면 화면 크기에 따
 
 # position
 
-1. fixed
+1. fixed  
    (1) position fixed를 사용하면 스크롤해도 항상 제자리에 머무른다.  
    (2) 처음 만들어진 자리에 고정되어있다. 하지만 top, left, right, bottom 중 하나만 수정해도 서로 다른 레이어에 위치하게되어 원래 위치가 무시된다. position fixed를 이용하면 가장 위에 위치하게 된다. (맨 앞)
 
-2. relative
+2. relative  
    (1) 박스가 처음 위치한 곳을 기준으로 이동, top, botoom, left, right 속성을 주면 첫 위치를 기준으로 이동
 
-3. absolute
+3. absolute  
    가장 가까운 부모 엘리먼트에 position: relative를 추가하면 그 부모 기준으로 top, bottom, left, right 이동하고 아닐시엔 body를 기준으로 이동한다.
+
+# pseudo selector
+
+좀 더 세부적으로 엘리먼트를 선택해주는 것  
+e.g div: last-child : last child in a list of div's  
+span: nth-child(even), span:nth-child(2n), span: nth-child(2n+1)  
+n allows you to do every other number
