@@ -7,7 +7,7 @@
 4. inline(in the same line)은 같은 줄 옆에 다른 요소가 추가될 수 있다
 5. block 이 아닌 것들: span, a, image
 6. 어떤 요소를 inline으로 설정할 경우 그 요소는 높이와 너비를 가질 수 없다.
-
+7. *{}는 전체를 의미한다.
 
 ## box의 요소
 1. margin : box의 border(경계)의 바깥에 있는 공간이다.
@@ -19,3 +19,8 @@
 (1) 값의 개수에 따라 적용되는 방향은 위의 margin과 동일하다
 (2) 여러 div를 생성했을 때 id를 이용하여 div들을 구분할 수 있고, 각각 다른 속성을 적용시킬 수 있다.
 (3) id에 속성을 적용 시킬 때는 #id {}로 표기
+
+3. Border는 box(block)의 경계이다.
+(1) border는 보통 한 종류만 사용한다.
+(2) border: 굵기, 스타일, 색상 순이다.
+(3) border는 inline과 blcok 모두에 적용된다.
