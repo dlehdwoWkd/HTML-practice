@@ -68,6 +68,13 @@ _height를 px로 해도 작동하지만, vh를 사용하면 화면 크기에 따
 # pseudo selector
 
 좀 더 세부적으로 엘리먼트를 선택해주는 것  
-e.g div: last-child : last child in a list of div's  
+e.g div: last-child : div의 마지막 자식 요소 지정
 span: nth-child(even), span:nth-child(2n), span: nth-child(2n+1)  
 n allows you to do every other number
+
+1. div span  
+   : div 속 모든 span. span이 div의 direct children이 아니어도 작동
+2. div > span  
+   : span이 div의 direct children임을 의미한다. 이때는 direct children이 아니면 작동하지 않는다.
+3. div + span  
+   : div와 동등한 위치(형제)에 있는 span을 의미한다. 자식 요소도, 부모 요소도 아닌 것.
