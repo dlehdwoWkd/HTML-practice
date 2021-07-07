@@ -3,3 +3,12 @@
 어떤 상태에서 다른 상태로의 변화를 보내주는 애니메이션  
 (1) transition은 state가 없는 요소에 붙어야 한다.  
 (2) transition에 변화를 준 것들은 state에 들어있는 것들이 기준이 되어 바뀌는 것이다.
+
+# Transformation
+
+css로 3D까지 할 수 있게 하는 기능  
+(1) transformation은 box element를 변형시키지 않는다. 그러므로 옆에 sibling들에게 영향을 끼치지 않는다.  
+(2) 일종의 3D transformation이기 때문에 margin, padding이 적용되지 않는다.  
+(3) transfomation은 페이지의 픽셀의 다른 부분에서 일어난다.  
+(4) box차원에서 일어나지 않는다.  
+(5) transition 등과 결합 가능하다.
